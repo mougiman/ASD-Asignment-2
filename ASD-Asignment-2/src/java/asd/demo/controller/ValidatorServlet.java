@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author George
  */
+/*
 public class ValidatorServlet extends HttpServlet {
 
     @Override
@@ -46,3 +47,4 @@ public class ValidatorServlet extends HttpServlet {
         }
     }
 }
+*/
