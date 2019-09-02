@@ -42,29 +42,41 @@
                     --->
                     <h>1000 Piece Puzzle</h> <!--- Will link to item info --->
                     <p></p>
-                        <img src="puzzle-img.jpg" style="width:500px; height:400px;"/>
-                        <h1> <u>Item Info</u> </h1>
-                        <div> Description </div>
-                        <div> A puzzle box with 1000 pieces. </div>
-                        <div> Category: Toys/Games </div>
-                        <div> Price: $10.00 </div>
-                        <div> Condition: New </div>
-                        <div> Color: Brown </div>
-                        <div> Year Made: 2018 </div>
-                        <button type="button"> Buy Now! </div>
-                    </div>
+                    <img src="puzzle-img.jpg" style="width:500px; height:400px;"/>
+                    <h1> <u>Item Info</u> </h1>
+                    <div> Description </div>
+                    <div> A puzzle box with 1000 pieces. </div>
+                    <div> Category: Toys/Games </div>
+                    <div> Price: $10.00 </div>
+                    <div> Condition: New </div>
+                    <div> Color: Brown </div>
+                    <div> Year Made: 2018 </div>
+                    <button type="button"> Buy Now! </div>
+            </div>
+            <div>
+                <h2>Item Reviews</h2>
+                <a href="review.jsp">Leave a Review</a>
+                <%  for(int i = 0; i < 3; i++){
+                %>
+                <div>
+                    <h3>Great Product</h3>
+                    <p>by anonymous</p>
+                    <p>This puzzle set is great for kids to play with, its challenging enough to make you think, but hard enough that kids well spend some time of their phones completing this thing :)</p>
                 </div>
-                <div class="col">
-                    <div class="userBox">
-<<<<<<< HEAD
-                        <div> Listed User: <a href="viewUser.jsp">Calvin</a> </div> <!-- Will link to user's profile -->
-=======
-                        <div> Listed User:<a href="view_user.jsp">Calvin</a></div> <!-- Will link to user's profile -->
->>>>>>> origin/master
-                        <div> Listed Date: 15/08/2019 </div>
-                    </div>
-                </div>
+                <%
+                    }
+                %>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class="userBox">
+
+                <div> Listed User: <a href="viewUser.jsp">Calvin</a> </div> <!-- Will link to user's profile -->
+
+                <div> Listed Date: 15/08/2019 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>

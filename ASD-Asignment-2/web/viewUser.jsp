@@ -43,6 +43,20 @@
             </table>
         </form>
 
+                <div>
+                <h2>User Ratings</h2>
+                <a href="review.jsp">Leave a Rating</a>
+                <%  for(int i = 0; i < 3; i++){
+                %>
+                <div>
+                    <h3>Great User</h3>
+                    <p>by anonymous</p>
+                    <p>This user sells premium products for a good price</p>
+                </div>
+                <%
+                    }
+                %>
+            </div>
     </body>
 </html>    
             
